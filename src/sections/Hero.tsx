@@ -4,7 +4,7 @@ export const Hero = () => {
   return (
     <section
       // ...+ masking of rings
-      className="h-[492px] md:h-[800px] flex items-center overflow-hidden relative [mask-image:linear_gradient(to_bottom,transparent,black_10%,black_90%,transparent)]"
+      className="h-[492px] md:h-[800px] flex items-center overflow-hidden relative [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)]"
       style={{
         backgroundImage: `url(${starBg.src})`,
       }}
